@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Length" />
+
+    <EditText
+        android:id="@+id/etWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Width" />
+
+    <Button
+        android:id="@+id/btnCalculateRectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Rectangle Area" />
+
+    <EditText
+        android:id="@+id/etBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Base" />
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height" />
+
+    <Button
+        android:id="@+id/btnCalculateTriangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Triangle Area" />
+
+    <EditText
+        android:id="@+id/etRadius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Radius" />
+
+    <Button
+        android:id="@+id/btnCalculateCircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Circle Area" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="18sp"/>
+</LinearLayout>

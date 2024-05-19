@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolumeCalculatorFragment">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Input for Length -->
+        <EditText
+            android:id="@+id/etLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Length" />
+
+        <!-- Input for Width -->
+        <EditText
+            android:id="@+id/etWidth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Width" />
+
+        <!-- Input for Height -->
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height" />
+
+        <!-- Button to Calculate Cuboid Volume -->
+        <Button
+            android:id="@+id/btnCalculateCuboid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Cuboid Volume" />
+
+        <!-- Input for Base of Pyramid -->
+        <EditText
+            android:id="@+id/etBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Base" />
+
+        <!-- Input for Height of Pyramid -->
+        <EditText
+            android:id="@+id/etPyramidHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height" />
+
+        <!-- Button to Calculate Pyramid Volume -->
+        <Button
+            android:id="@+id/btnCalculatePyramid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Pyramid Volume" />
+
+        <!-- Input for Radius of Cylinder -->
+        <EditText
+            android:id="@+id/etRadius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Radius" />
+
+        <!-- Button to Calculate Cylinder Volume -->
+        <Button
+            android:id="@+id/btnCalculateCylinder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Cylinder Volume" />
+
+        <!-- TextView to Display Result -->
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:padding="16dp"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
